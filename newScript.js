@@ -12,7 +12,6 @@ let again = document.querySelector(".again");
 
 // random Number
 let randomNo = Math.trunc(Math.random() * 20) + 1;
-console.log(randomNo);
 let scoreNum = 20;
 let highScoreNum = 0;
 
@@ -50,7 +49,6 @@ function check() {
  */
 function reset() {
     randomNo = Math.trunc(Math.random() * 20) + 1;
-    console.log(randomNo);
     correctAns.textContent = "?";
     message.textContent = "Start guessing...";
     background.style.backgroundColor = "#222";
