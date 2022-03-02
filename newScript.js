@@ -43,7 +43,7 @@ function check() {
         }
 
     }
-}
+};
 /**
  * reset 
  */
@@ -55,7 +55,7 @@ function reset() {
     scoreNum = 20;
     score.textContent = 20;
     input.value = "";
-}
+};
 
 // EventListener
 // check 
